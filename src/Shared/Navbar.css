@@ -1,0 +1,15 @@
+@media screen and (max-width: 780px) {
+    .nav-bar-phone-screen{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 20;
+        
+    }
+
+    .nav-bar-phone-screen>ul{
+        justify-content: space-between;
+        padding: 5px 50px;
+    }
+
+}

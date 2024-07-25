@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+:root{
+  --bgColor: #18000a;
+  --mainColor: #d70f65;
+  --secondaryColor: #f776ae77; 
+  --heading: #fff;
+  --paraColor: #e2e2e2;
+  --smartBg: #ffffff4c;
+}
+
+button, h1, h2, h3, p{
+  font-family: "Outfit", sans-serif;
+}
+
+body{
+  background: var(--bgColor);
+}
+
+.letter{
+  letter-spacing: 3px;
+}
+
+.up-down{
+  animation: upDownAnimation 2s infinite linear
+}
+@keyframes upDownAnimation{
+  0%{
+    transform: translateY(5px);
+  }
+  50%{
+    transform: translateY(0px);
+}
+  100%{
+    transform: translateY(5px);
+}
+}
+
+.top-aos{
+  animation: topAosAnimation 0.5s 1 linear;
+}
+
+@keyframes topAosAnimation {
+  0%{
+      transform: scale(1.2) translateY(-20px);
+      opacity: 0;
+  }
+  50%{
+    transform: scale(1.1) translateY(-10px);
+      opacity: 0.5;
+  }
+   100%{
+      transform: scale(1) translateY(0);
+      opacity: 1;
+  }
+}
+
+.left-aos{
+  animation: leftAosAnimation 0.8s 1 linear;
+  /* animation-timeline: view(100% 100%); */
+}
+
+@keyframes leftAosAnimation {
+  0%{
+      transform:  scale(0.7) translateX(50px);
+      opacity: 0;
+  }
+  66%, 100%{
+      transform: scale(1) translateX(0);
+      opacity: 1;
+  }
+}
+
+.right-aos{
+  animation: rightAosAnimation 0.8s 1 linear;
+}
+
+@keyframes rightAosAnimation {
+  0%{
+      transform:  scale(0.7) translateX(-50px);
+      opacity: 0;
+  }
+  66%, 100%{
+      transform: scale(1) translateX(0);
+      opacity: 1;
+  }
+}
+
+.signatureFont{
+  font-family: "Great Vibes", cursive !important;
+}
+
+.nav-icons li{
+  animation: zoomIn 1s infinite linear;
+}
+@keyframes zoomIn {
+  0%{
+    transform: scale(1.2);
+  }
+  50%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.2);
+  }
+}
+
+.icon-style>.icon{
+  transform: rotate(-45deg);
+  transition: 0.3s all;
+  z-index: -0;
+}
+.icon-style:hover .icon{
+  transform: rotate(0);
+}
+
+.btn{
+  box-shadow: 5px 5px 70px var(--mainColor), -5px -5px 70px var(--secondaryColor);
+  transition: all 0.5s;
+}
+.btn:hover{
+  box-shadow: 5px 5px 45px var(--mainColor), -5px -5px 45px var(--secondaryColor);
+}
+
+.rotate-noClock{
+  animation: rotateNoClock 10s infinite linear;
+}
+
+@keyframes rotateNoClock {
+  0%{
+    transform: rotate(0deg);
+    animation-timing-function: ease-in;
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-clock{
+  animation: rotateClock 10s infinite linear;
+}
+
+@keyframes rotateClock {
+  0%{
+    transform: rotate(360deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+.opacity-design{
+  animation: opacityDesign 5s infinite linear;
+}
+@keyframes opacityDesign {
+  0%{
+    opacity: 0.8;
+  }
+  50%{
+    opacity: 0.4;
+  }
+  100%{
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .rotate{
+    display: block;
+    transform: rotate(180deg);
+  }
+  
+}

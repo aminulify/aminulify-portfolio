@@ -1,0 +1,23 @@
+.swiper-button-prev::after{
+    color: var(--mainColor);
+}
+.swiper-button-next::after{
+    color: var(--mainColor);
+}
+ 
+.swiper-pagination-bullet-active{
+    background: var(--mainColor);
+}
+
+.vertical-line{
+    border-left: 2px solid var(--mainColor);
+    margin: 0 10px;
+    height: 150px;
+    opacity: 50%;
+}
+@media screen and (max-width: 800px) {
+    .vertical-line{
+        display: none;
+    }
+}
+  
