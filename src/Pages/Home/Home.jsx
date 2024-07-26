@@ -31,7 +31,7 @@ const Home = () => {
                         /></span></h2>
                 <p className='text-[var(--paraColor)] text-white font-[300] pb-5 text-md md:text-lg'>Enhance your brand with modern and good looking branding design and website. Run your business to smart way.</p>
 
-                <a href="../../../public/my_resume.pdf" download>
+                <a href="../../../public/job-resume.pdf" download>
                 <div className='relative'> 
                         <div className='w-32 mt-12 grid place-items-center'>
                             <img src={btnDesignImg} className='rotate-clock w-[130px] absolute' alt="" />

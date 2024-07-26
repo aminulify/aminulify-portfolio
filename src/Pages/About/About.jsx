@@ -155,7 +155,7 @@ const About = () => {
                             
 
                             <h2 className='text-white'>HSC - Science Department - <span className='font-medium'>( 2018 - 2020 )</span></h2>
-                            <p className='text-white text-[13px] text-[#ffffffa3]'>GPA - 5.00 OUT OF 5.00</p>
+                            <p className='text-[13px] text-[#ffffffa3]'>GPA - 5.00 OUT OF 5.00</p>
                         </main>
                     )
                 }
@@ -166,11 +166,11 @@ const About = () => {
                         <main className='md:text-left text-center left-aos mt-5'>
                             <h2 className='text-white'>Aminulify<span className='font-medium'> ( 2020 - Present )</span></h2>
                             <p className='text-white text-sm'>Freelancer / CEO</p>
-                            <p className='text-white text-[13px] text-[#ffffffa3]'>Service Location: All Over The World    <span className='mx-2'>|</span>Part Time</p>
+                            <p className='text-[13px] text-[#ffffffa3]'>Service Location: All Over The World    <span className='mx-2'>|</span>Part Time</p>
 
                             <h2 className='text-white mt-3'>Easy Parts<span className='font-medium'> ( 2021 - 2022 )</span></h2>
                             <p className='text-white text-sm'>Website Administrator</p>
-                            <p className='text-white text-[13px] text-[#ffffffa3]'>Location: USA   <span className='mx-2'>|</span>   Full Time Remote Job</p>
+                            <p className='text-[13px] text-[#ffffffa3]'>Location: USA   <span className='mx-2'>|</span>   Full Time Remote Job</p>
                         </main>
                     )
                 }
