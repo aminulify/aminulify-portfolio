@@ -40,7 +40,7 @@ const Navbar = () => {
             <img src={bgImg} className='absolute hidden top-0 -z-10 rotate' alt="left style image" />
 
             {/* left side  */}
-           <section className='w-[85%] md:mx-20 mx-10 py-3 flex justify-between items-center'>
+           <section className='w-[85%] mx-auto py-3 flex justify-between items-center'>
             <aside>
                     <Link to={'/'}><h2 className='text-white font-semibold text-2xl'>Aminulify<span className='text-[var(--mainColor)] pl-[2px] text-3xl'>.</span></h2></Link>
             </aside> 

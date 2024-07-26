@@ -185,3 +185,17 @@ body{
   }
   
 }
+
+.vertical-line-service{
+    border-left: 2px solid #d70f66aa;
+    margin: 0 10px;
+    height: 100px;
+    opacity: 50%;
+}
+
+@media screen and (max-width: 780px) {
+  .vertical-line-service{
+    height: 80px;
+}
+  
+}

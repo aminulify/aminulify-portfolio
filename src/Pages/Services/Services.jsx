@@ -120,11 +120,11 @@ const Services = () => {
                     {
                         servicesData.map(data=>(
                             <SwiperSlide className='px-3 pt-5 service'>
-                                <main className='text-white h-[200px] md:h-60 icon-style'>
-                                <div className='text-4xl'>{data.icon}</div>
+                                <main className='text-white h-[180px] md:h-[230px] icon-style'>
+                                <div className='text-3xl text-[var(--mainColor)]'>{data.icon}</div>
                                 <h1 className='text-md font-medium mt-2'>{data.service} <span className='text-bold text-[var(--mainColor)]'>.</span></h1>
-                                <p className='text-sm font-[300] pt-1 text-[#ffffffeb]'>{data.description}</p>
-                                <div className="pt-3 icon absolute bottom-3"><GoArrowRight className=' text-white text-2xl'/></div>
+                                <p className='text-sm font-[300] pt-[1px] text-[#ffffffeb]'>{data.description}</p>
+                                <div className="pt-3 icon absolute bottom-3"><GoArrowRight className=' text-white text-2xl icon-color'/></div>
                                 </main>
                             </SwiperSlide>
                         ))

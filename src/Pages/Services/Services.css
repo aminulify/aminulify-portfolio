@@ -2,7 +2,7 @@
     border: 1.5px solid var(--mainColor);
     padding: 2px 5px;
     color: var(--mainColor);
-    border-radius: 8px 0 8px 0;
+    border-radius: 3px;
     font-weight: 700;
     font-size: 12px;
 }
@@ -11,4 +11,8 @@
     backdrop-filter: blur(4px);
     border-radius: 5px;
     background: #ff007715;
+}
+
+.icon-color{
+    color: var(--mainColor);
 }

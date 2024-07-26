@@ -50,7 +50,7 @@ const Testimonials = () => {
                     {
                         reviews.map(client=> (
                             <SwiperSlide>
-                                <section className='flex flex-col md:flex-row md:justify-between items-center md:gap-10 text-white px-20 right-aos'>
+                                <section className='flex flex-col md:flex-row md:justify-between items-center md:gap-10 text-white px-10 md:px-20 right-aos'>
 
                                     <div className='text-center grid place-items-center md:w-[40%] lg:w-[40%] w-full'>
                                         <div>
@@ -67,7 +67,7 @@ const Testimonials = () => {
 
                                     <div>
                                         <h2 className='text-4xl opacity-50 text-[var(--mainColor)]'><FaQuoteLeft/></h2>
-                                        <p className=' text-sm md:text-[16px] py-2 font-[300]'>{client.reviews}</p>
+                                        <p className=' text-sm md:text-[16px] py-2 font-[300] text-center md:text-left'>{client.reviews}</p>
                                     </div>
                                     
                                 </section>
