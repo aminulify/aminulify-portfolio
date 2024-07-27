@@ -50,12 +50,14 @@ const Testimonials = () => {
                     {
                         reviews.map(client=> (
                             <SwiperSlide>
-                                <section className='flex flex-col md:flex-row md:justify-between items-center md:gap-10 text-white px-10 md:px-20 right-aos'>
+                                <section key={client._id} className='flex flex-col md:flex-row md:justify-between items-center md:gap-10 text-white px-10 md:px-20 right-aos'>
 
-                                    <div className='text-center grid place-items-center md:w-[40%] lg:w-[40%] w-full'>
+                                    <div className='text-center grid place-items-center md:w-[40%] lg:w-[40%] w-full '>
                                         <div>
                                         {
-                                            client.img ? <img src={client.img} alt="" className='md:w-20 w-16 h-16 md:h-20 rounded-full bg-[var(--mainColor)]' /> : <h1 className='grid place-content-center md:w-20 md:h-20 w-16 h-16 rounded-full bg-[var(--mainColor)] text-white font-semibold text-4xl'>{client.name.slice(0,1)}</h1>
+                                            client.img ? <div className=' md:w-20 md:h-20 w-16 h-16'>
+                                                <img src={client.img} alt="" className='object-cover object-center rounded-full md:w-20 md:h-20 w-16 h-16' />
+                                            </div> : <h1 className='grid place-content-center md:w-20 md:h-20 w-16 h-16 rounded-full bg-[var(--mainColor)] text-white font-semibold text-4xl'>{client.name.slice(0,1)}</h1>
                                         }
                                         </div>
                                         <h1 className='mt-2 font-medium md:font-semibold text-md'>{client.name}</h1>

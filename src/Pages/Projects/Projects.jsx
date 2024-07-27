@@ -89,10 +89,10 @@ const Projects = () => {
                     graphic && <div className='grid grid-cols-2 md:grid-cols-3 gap-5'>
                     {
                         imagesGraphic.map(image => (
-                                <div className='relative overflow-hidden delay-75 right-aos'>
+                                <div className='relative overflow-hidden delay-75 right-aos main-image'>
                                     <Link to={image.url} target='_blank'>
 
-                                    <img src={image.img} className='rounded-md' alt="image" />
+                                    <img src={image.img} className='rounded-md ' alt="image" />
 
                                     <div className='image-style'>
                                         <h2 className='w-full h-full flex items-center justify-center gap-[1px] text-white icon-style opacity-0 hover:opacity-[100%] duration-300'>View Details <div className="icon"><GoArrowRight className=' text-white text-xl'/></div></h2>
@@ -108,7 +108,7 @@ const Projects = () => {
                     code && <div className='grid grid-cols-2 md:grid-cols-3 gap-5'>
                     {
                         imagesCode.map(image => (
-                            <div className='relative overflow-hidden delay-75 right-aos'>
+                            <div className='relative overflow-hidden delay-75 right-aos main-image'>
                             <Link to={image.url} target='_blank'>
 
                             <img src={image.img} className='rounded-md' alt="image" />

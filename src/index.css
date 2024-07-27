@@ -15,6 +15,7 @@
   --heading: #fff;
   --paraColor: #e2e2e2;
   --smartBg: #ffffff4c;
+  --toastify-color-progress-light: #d70f65 !important;
 }
 
 button, h1, h2, h3, p{
