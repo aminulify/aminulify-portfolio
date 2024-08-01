@@ -56,7 +56,7 @@ const About = () => {
 
     const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
     return (
-        <div className='w-[85%] mx-auto mt-10 mb-24 md:my-16 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16'>
+        <div className='w-[85%] mx-auto mb-28 md:my-16 mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16'>
             <aside className='left-aos'>
                 <h2 className='text-3xl md:text-4xl text-white font-semibold'>I love to overcome new kind of <span className='text-[var(--mainColor)]'>challenges.</span></h2>
                 <p className='text-white font-[300] text-sm my-5'>I am Aminul. Now I am 24 years old. I am studying on B.Sc of Computer Science and Engineering Department in National University. I am a student and freelancer. I have running almost over Four years client management experience. I am very smiling person and I am very flexible person. I am a good learner and understand fastly new technologies capability.</p>
@@ -68,12 +68,12 @@ const About = () => {
                     </aside>
                     <div className="vertical-line-service"></div>
                     <aside>
-                        <h2 className='text-2xl md:text-4xl text-[var(--mainColor)] font-bold'><CountUp start={0} end={450} duration={3} />+</h2>
+                        <h2 className='text-2xl md:text-4xl text-[var(--mainColor)] font-bold'><CountUp start={0} end={550} duration={3} />+</h2>
                         <p className='text-white md:text-[14px] text-[10px]'>COMPLETED PROJECTS</p>
                     </aside>
                     <div className="vertical-line-service"></div>
                     <aside>
-                        <h2 className='text-2xl md:text-4xl text-[var(--mainColor)] font-bold'><CountUp start={0} end={380} duration={3} />+</h2>
+                        <h2 className='text-2xl md:text-4xl text-[var(--mainColor)] font-bold'><CountUp start={0} end={460} duration={3} />+</h2>
                         <p className='text-white md:text-[14px] text-[10px]'>SATISFIES CLIENTS</p>
                     </aside>
                     <div className="vertical-line-service"></div>

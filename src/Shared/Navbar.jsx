@@ -46,7 +46,7 @@ const Navbar = () => {
             </aside> 
 
                 {/* right side  */}
-            <aside>
+            <aside className=''>
                 <ul className='[&_li]:cursor-pointer text-white flex text-[18px] [&_li]:text-white'>
                     <Link to={'https://www.facebook.com/aminulify/'} target='_blank'><li className='hover:text-[var(--mainColor)] duration-300 animate-bounce px-2 md:px-3'><FaFacebookF/></li></Link>
                     <Link to={'https://dribbble.com/aminulify'} target='_blank'><li className='hover:text-[var(--mainColor)] duration-300 animate-bounce px-2 md:px-3'><FaDribbble/></li></Link>

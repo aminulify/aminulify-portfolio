@@ -61,7 +61,7 @@ const Services = () => {
     ]
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-5 md:gap-8 w-[85%] mx-auto md:my-10 items-center'>
+        <div className='grid grid-cols-1 md:grid-cols-5 md:gap-8 w-[85%] mx-auto md:my-16 my-8 items-center'>
             <aside className='col-span-2'>
                 <div className='md:mb-24 mb-12 mt-10 left-aos'>
                     <h2 className='text-white text-[26px] md:text-3xl my-2 font-semibold'>My Services<span className='pl-[2px] font-bold text-3xl md:text-[35px] text-[var(--mainColor)]'>.</span></h2>
@@ -79,7 +79,7 @@ const Services = () => {
                 </div>
             </aside>
 
-            <aside className='col-span-3 right-aos'>
+            <aside className='col-span-3 right-aos md:mb-0 mb-28'>
             <Swiper
                     breakpoints={
                         {
@@ -129,12 +129,6 @@ const Services = () => {
                             </SwiperSlide>
                         ))
                     }
-                  
-                    
-                    {/* <SwiperSlide>
-                        
-                    </SwiperSlide> */}
-                    
                     
                 </Swiper>
             </aside>

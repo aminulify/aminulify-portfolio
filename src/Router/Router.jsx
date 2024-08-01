@@ -47,7 +47,11 @@ import Testimonials from '../Pages/Testimonials/Testimonials';
         
       ],
       errorElement: <ErrorPage/>
-    }
+    },
+    {
+      path: '/*',
+      element: <ErrorPage/>
+    },
   ]);
 
 export default router;

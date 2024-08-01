@@ -11,8 +11,8 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs
-      .sendForm(import.meta.env.VITE_EMAILJS_SERVICES, import.meta.env.VITE_EMAILJS_TEMPLATE, form.current, {
-        publicKey: import.meta.env.VITE_EMAILJS_PUBLICKEY,
+      .sendForm('service_93mlf7b', 'template_b1ywtdh', form.current, {
+        publicKey: 'zD29NRoqRu1DD1tM9',
       })
       .then(
         () => {
@@ -33,8 +33,8 @@ const Contact = () => {
             <ToastContainer style={{width: '250px'}}/>
         
 
-            <form onSubmit={handleSubmit} ref={form} className='relative max-w-2xl mx-16 md:mx-auto top-aos'>
-            <h1 className='text-2xl md:text-3xl text-white text-center font-semibold mt-10 mb-5 border-b-[1.5px] border-[var(--mainColor)] pb-1 w-fit mx-auto'>Contact Me</h1>
+            <form onSubmit={handleSubmit} ref={form} className='relative max-w-2xl mx-16 md:mx-auto top-aos md:my-16 my-10'>
+            <h2 className='text-center text-white text-[26px] md:text-3xl my-5 font-semibold'>Contact <span className='text-[var(--mainColor)]'>Me<span className='pl-[1px] font-bold text-3xl md:text-[35px]'>.</span></span></h2>
 
             <div>
                 <label className='text-[var(--mainColor)]'>Name</label>
