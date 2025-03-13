@@ -68,12 +68,12 @@ const About = () => {
                     </aside>
                     <div className="vertical-line-service"></div>
                     <aside>
-                        <h2 className='text-2xl md:text-4xl text-[var(--mainColor)] font-bold'><CountUp start={0} end={550} duration={3} />+</h2>
+                        <h2 className='text-2xl md:text-4xl text-[var(--mainColor)] font-bold'><CountUp start={0} end={1200} duration={3} />+</h2>
                         <p className='text-white md:text-[14px] text-[10px]'>COMPLETED PROJECTS</p>
                     </aside>
                     <div className="vertical-line-service"></div>
                     <aside>
-                        <h2 className='text-2xl md:text-4xl text-[var(--mainColor)] font-bold'><CountUp start={0} end={460} duration={3} />+</h2>
+                        <h2 className='text-2xl md:text-4xl text-[var(--mainColor)] font-bold'><CountUp start={0} end={100} duration={3} />%</h2>
                         <p className='text-white md:text-[14px] text-[10px]'>SATISFIES CLIENTS</p>
                     </aside>
                     <div className="vertical-line-service"></div>

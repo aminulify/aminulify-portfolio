@@ -11,7 +11,7 @@ import { FaHome } from "react-icons/fa";
 import { MdPermPhoneMsg } from "react-icons/md";
 import { PiToolboxFill } from "react-icons/pi";
 import { FaUser } from "react-icons/fa6";
-import { AiFillProject } from "react-icons/ai";
+import { AiOutlineCodeSandbox } from "react-icons/ai";
 import { PiShootingStarFill } from "react-icons/pi";
 
 import bgImg from '../../public/bg.png';
@@ -63,7 +63,7 @@ const Navbar = () => {
                     <Link to="/" data-tooltip-id="my-tooltip" data-tooltip-content="Home" data-tooltip-offset={15} ><li className='hover:text-[var(--mainColor)] duration-300 px-1 py-3'><FaHome/></li></Link>
                     <Link to="/about" data-tooltip-id="my-tooltip" data-tooltip-content="About" data-tooltip-offset={15}><li className='hover:text-[var(--mainColor)] duration-300 px-1 py-3'><FaUser/></li></Link>
                     <Link to="/services" data-tooltip-id="my-tooltip" data-tooltip-content="Services" data-tooltip-offset={15}><li className='hover:text-[var(--mainColor)] duration-300 px-1 py-3'><PiToolboxFill/></li></Link>
-                    <Link to="/projects" data-tooltip-id="my-tooltip" data-tooltip-content="Projects" data-tooltip-offset={15}><li className='hover:text-[var(--mainColor)] duration-300 px-1 py-3'><AiFillProject/></li></Link>
+                    <Link to="/projects" data-tooltip-id="my-tooltip" data-tooltip-content="Projects" data-tooltip-offset={15}><li className='hover:text-[var(--mainColor)] duration-300 px-1 py-3'><AiOutlineCodeSandbox className='text-2xl' /></li></Link>
                     <Link to="/testimonials" data-tooltip-id="my-tooltip" data-tooltip-content="Testimonials" data-tooltip-offset={15}><li className='hover:text-[var(--mainColor)] duration-300 px-1 py-3'><PiShootingStarFill/></li></Link>
                     <Link to="/contact" data-tooltip-id="my-tooltip" data-tooltip-content="Contact" data-tooltip-offset={15}><li className='hover:text-[var(--mainColor)] duration-300 px-1 pt-2 pb-3'><MdPermPhoneMsg/></li></Link>
                 </ul>
