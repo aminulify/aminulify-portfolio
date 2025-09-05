@@ -33,10 +33,12 @@ const Contact = () => {
     const name = e.target.name.value;
     const email = e.target.email.value;
     const contact = e.target.contact.value;
+    const companyName = e.target.companyName.value;
+    const industry = e.target.industry.value;
     const message = e.target.message.value;
     const services = selectedServices.join(", ");
 
-    const formData = { name, email, contact, message, services, budget };
+    const formData = { name, email, contact, message, companyName, industry, services:[services], budget };
 
     emailjs
       .send("service_93mlf7b", "template_b1ywtdh", formData, "zD29NRoqRu1DD1tM9")
@@ -98,6 +100,27 @@ const Contact = () => {
               type="text"
               name="contact"
               placeholder="Enter your phone number"
+              className="bg-transparent border border-[var(--mainColor)] w-full p-2 rounded-sm text-white outline-none mt-[1px] backdrop-blur-md"
+            />
+          </div>
+        </section>
+
+        <section className="grid md:grid-cols-2 grid-cols-1 md:gap-8">
+          <div className="py-2">
+            <label className="text-[var(--mainColor)]">Company Name</label>
+            <input
+              type="text"
+              name="companyName"
+              placeholder="Enter your company name"
+              className="bg-transparent border border-[var(--mainColor)] w-full p-2 rounded-sm text-white outline-none mt-[1px] backdrop-blur-md"
+            />
+          </div>
+          <div className="pb-2 md:py-2">
+            <label className="text-[var(--mainColor)]">Business Industry</label>
+            <input
+              type="text"
+              name="industry"
+              placeholder="Enter your business industry"
               className="bg-transparent border border-[var(--mainColor)] w-full p-2 rounded-sm text-white outline-none mt-[1px] backdrop-blur-md"
             />
           </div>
