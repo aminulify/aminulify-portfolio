@@ -7,10 +7,22 @@ const Projects = () => {
 
     const imagesGraphic = [
         {
-            img: "https://i.ibb.co/rtC0nyY/brand11.jpg",
+            img: "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/fdda80230781741.6893a31d98a53.jpg",
             behance: "https://www.behance.net/aminulify",
             dribble: "https://dribbble.com/aminulify",
             name: "Some types of brand identity designs."
+        },
+        {
+            img: "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/4a439a231589385.688ba8e057395.jpg",
+            behance: "https://www.behance.net/gallery/231589385/Custom-Brand-Identity-Guidelines-Branding-Design",
+            dribble: "https://dribbble.com/shots/26345674-Custom-Brand-Identity-Guidelines-Branding-Design",
+            name: "Custom Brand Identity Guidelines & Branding Design.",
+        },
+        {
+            img: "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/a66c8c232544897.689e15f192a54.jpg",
+            behance: "https://www.behance.net/gallery/232544897/Social-Media-Carousel-Post-Design-and-Business-Strategy",
+            dribble: "https://dribbble.com/shots/26401887-Social-Media-Carousel-Post-Design-and-Business-Strategy",
+            name: "Social Media Carousel Post Design and Business Strategy.",
         },
         {
             img: "https://i.ibb.co.com/cS8pdJng/fghf.jpg",
@@ -19,34 +31,10 @@ const Projects = () => {
             name: "Tourist Hotel Conceptual Branding Design.",
         },
         {
-            img: "https://i.ibb.co/kgnpwx9/brand2.jpg",
-            behance: "https://www.behance.net/gallery/194101915/Luxury-Beauty-Care-Branding-Guideliness",
-            dribble: "https://dribbble.com/shots/23843019-Luxury-Beauty-Care-Logo-Guidelines",
-            name: "Luxury beauty care company complete branding design.",
-        },
-        {
-            img: "https://i.ibb.co/fx747tk/brand1.jpg",
-            behance: "https://www.behance.net/gallery/192196619/Kacha-Organic-Food-Company-Brand-identity-Design",
-            dribble: "https://dribbble.com/shots/23695644-Kacha-Organic-Food-Brand-Identity-Design",
-            name: "Organic food company complete branding design.",
-        },
-        {
-            img: "https://i.ibb.co/rwgX7b1/brand3.jpg",
-            behance: "https://www.behance.net/gallery/187887299/Farms-Complete-Branding-Design",
-            dribble: "https://dribbble.com/shots/23354121-Farms-Complete-Branding-Design",
-            name: "Organic farm company complete branding design.",
-        },
-        {
-            img: "https://i.ibb.co/dP6FW7n/brand4.jpg",
-            behance: "https://www.behance.net/gallery/189622003/Luxury-Fashion-Brand-Identity-Design",
-            dribble: "https://dribbble.com/shots/23491631-Luxury-Fashion-Brand-Identity-Design",
-            name: "Luxury fashion company branding design",
-        },
-        {
-            img: "https://i.ibb.co/F5XrW07/brand5.jpg",
-            behance: "https://www.behance.net/gallery/179619679/Sunglass-Company-Typograhic-Brand-identity-Design",
-            dribble: "https://dribbble.com/shots/22513879-Sunglass-Company-Brand-identity-Design",
-            name: "Sunglass company conceptual brand identity design.",
+            img: "https://i.ibb.co/Kbt1Bjt/brand8.jpg",
+            behance: "https://www.behance.net/gallery/170691143/Cleaning-Company-Complete-Branding-Design",
+            dribble: "https://dribbble.com/shots/21466480-Cleaning-Company-Complete-Branding-Design",
+            name: "Cleaning company complete branding design.",
         },
         {
             img: "https://i.ibb.co/4R8rqKp/brand6.jpg",
@@ -55,10 +43,30 @@ const Projects = () => {
             name: "Steel building company complete branding design.",
         },
         {
-            img: "https://i.ibb.co/Kbt1Bjt/brand8.jpg",
-            behance: "https://www.behance.net/gallery/170691143/Cleaning-Company-Complete-Branding-Design",
-            dribble: "https://dribbble.com/shots/21466480-Cleaning-Company-Complete-Branding-Design",
-            name: "Cleaning company complete branding design.",
+            img: "https://i.ibb.co/rwgX7b1/brand3.jpg",
+            behance: "https://www.behance.net/gallery/187887299/Farms-Complete-Branding-Design",
+            dribble: "https://dribbble.com/shots/23354121-Farms-Complete-Branding-Design",
+            name: "Organic farm company complete branding design.",
+        },
+        {
+            img: "https://i.ibb.co/kgnpwx9/brand2.jpg",
+            behance: "https://www.behance.net/gallery/194101915/Luxury-Beauty-Care-Branding-Guideliness",
+            dribble: "https://dribbble.com/shots/23843019-Luxury-Beauty-Care-Logo-Guidelines",
+            name: "Luxury beauty care company complete branding design.",
+        },
+        
+        {
+            img: "https://i.ibb.co/fx747tk/brand1.jpg",
+            behance: "https://www.behance.net/gallery/192196619/Kacha-Organic-Food-Company-Brand-identity-Design",
+            dribble: "https://dribbble.com/shots/23695644-Kacha-Organic-Food-Brand-Identity-Design",
+            name: "Organic food company complete branding design.",
+        },
+        
+        {
+            img: "https://i.ibb.co/dP6FW7n/brand4.jpg",
+            behance: "https://www.behance.net/gallery/189622003/Luxury-Fashion-Brand-Identity-Design",
+            dribble: "https://dribbble.com/shots/23491631-Luxury-Fashion-Brand-Identity-Design",
+            name: "Luxury fashion company branding design",
         },
         {
             img: "https://i.ibb.co/vkfWLTk/brand10.jpg",
@@ -66,12 +74,7 @@ const Projects = () => {
             dribble: "https://www.behance.net/gallery/122745395/OGLED-Typographic-Brand-identity",
             name: "Online consultant company conceptual brand identity design.",
         },
-        {
-            img: "https://i.ibb.co.com/pjp8JSPq/fghf.jpg",
-            behance: "https://www.behance.net/gallery/207575641/Paris-Restaurant-Branding-Design",
-            dribble: "https://dribbble.com/shots/24836635-Paris-Restaurant-Branding-Design",
-            name: "Paris Restaurant Branding identity and Brand Guidelines Design.",
-        },
+        
     ]
 
     const imagesCode = [
@@ -80,6 +83,12 @@ const Projects = () => {
             url: "https://stepup-3fe41.web.app/",
             name: "Full Stack Task Management Web Application.",
             design: "https://dribbble.com/shots/25529531-Task-Management-Web-Application"
+        },
+        {
+            img: "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/4ab314232010795.6893af844b002.jpg",
+            url: "https://www.behance.net/gallery/232010795/Dental-Grillz-Luxury-Web-UI-UX-Design",
+            name: "Modern Website UI/UX Design.",
+            design: "https://www.behance.net/gallery/232010795/Dental-Grillz-Luxury-Web-UI-UX-Design"
         },
         {
             img: "https://i.ibb.co/s5vKFMm/coding1.jpg",
