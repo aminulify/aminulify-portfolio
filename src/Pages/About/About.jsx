@@ -58,12 +58,12 @@ const About = () => {
     return (
         <div className='w-[85%] mx-auto mb-28 md:my-16 mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16'>
             <aside className='left-aos'>
-                <h2 className='text-3xl md:text-4xl text-white font-semibold'>I love to overcome new kind of <span className='text-[var(--mainColor)]'>challenges.</span></h2>
-                <p className='text-white font-[300] text-sm my-5'>I am Aminul. Now I am 24 years old. I am studying on B.Sc of Computer Science and Engineering Department in National University. I am a student and freelancer. I have running almost over Four years client management experience. I am very smiling person and I am very flexible person. I am a good learner and understand fastly new technologies capability.</p>
+                <h2 className='text-3xl md:text-4xl text-white font-semibold'>We love to overcome new kind of <span className='text-[var(--mainColor)]'>challenges.</span></h2>
+                <p className='text-white font-[300] text-sm my-5'>With 7+ years as a creative and digital partner, Aminulify helps businesses stand out as professional, trustworthy, and unforgettable. In today’s competitive digital space, a brand is more than a logo - it’s the way people experience you everywhere. That’s why we build consistent identities, manage social presence with strategy, and design modern, responsive websites with user-first UI/UX. The result — a polished, unified brand that earns trust and creates impact across every platform.</p>
 
                 <div className='flex items-center md:gap-5 gap-2'>
                     <aside>
-                        <h2 className='text-2xl md:text-4xl text-[var(--mainColor)] font-bold'>0<CountUp start={0} end={4} duration={3} />+</h2>
+                        <h2 className='text-2xl md:text-4xl text-[var(--mainColor)] font-bold'>0<CountUp start={0} end={7} duration={3} />+</h2>
                         <p className='text-white md:text-[14px] text-[10px]'>YEARS OF EXPERIENCE</p>
                     </aside>
                     <div className="vertical-line-service"></div>
@@ -87,8 +87,7 @@ const About = () => {
             <aside className='right-aos relative'>
                 <div className='flex gap-5'>
                     <button className={`font-medium border-b-[1.5px] ${skill ? 'border-[var(--mainColor)] text-[var(--mainColor)]':'border-white text-white hover:border-[var(--mainColor)] duration-300'} pb-[1px]`} onClick={handleSkillBtn}>Skills<span className='pl-[1px] font-bold'>.</span></button>
-                    <button className={`font-medium border-b-[1.5px] ${experience ? 'border-[var(--mainColor)] text-[var(--mainColor)]':'border-white text-white hover:border-[var(--mainColor)] duration-300'} pb-[1px]`} onClick={handleExperienceBtn}>Experience<span className='pl-[1px] font-bold'>.</span></button>
-                    <button className={`font-medium border-b-[1.5px] ${education ? 'border-[var(--mainColor)] text-[var(--mainColor)]':'border-white text-white hover:border-[var(--mainColor)] duration-300'} pb-[1px]`} onClick={handleEducationBtn}>Education<span className='pl-[1px] font-bold'>.</span></button>
+                    
                 </div>
 
                 {
@@ -142,35 +141,6 @@ const About = () => {
                                     <p className='text-white border-[1.5px] border-[var(--mainColor)] p-1 rounded-md font-[300] backdrop-blur-md text-sm'>Flexible</p> 
                                 </div>
                             </span>
-                        </main>
-                    )
-                }
-
-
-                {/* exprience  */}
-                {
-                    education && (
-                        <main className='md:text-left text-center left-aos mt-5'>
-                            <h2 className='text-white pb-2'>Computer Science & Engineering - <span className='font-medium'>( 2021 - Present )</span></h2>
-                            
-
-                            <h2 className='text-white'>HSC - Science Department - <span className='font-medium'>( 2018 - 2020 )</span></h2>
-                            <p className='text-[13px] text-[#ffffffa3]'>GPA - 5.00 OUT OF 5.00</p>
-                        </main>
-                    )
-                }
-
-                {/* experience  */}
-                {
-                    experience && (
-                        <main className='md:text-left text-center left-aos mt-5'>
-                            <h2 className='text-white'>Aminulify<span className='font-medium'> ( 2020 - Present )</span></h2>
-                            <p className='text-white text-sm'>Freelancer / CEO</p>
-                            <p className='text-[13px] text-[#ffffffa3]'>Service Location: All Over The World    <span className='mx-2'>|</span>Part Time</p>
-
-                            <h2 className='text-white mt-3'>Easy Parts<span className='font-medium'> ( 2021 - 2022 )</span></h2>
-                            <p className='text-white text-sm'>Website Administrator</p>
-                            <p className='text-[13px] text-[#ffffffa3]'>Location: USA   <span className='mx-2'>|</span>   Full Time Remote Job</p>
                         </main>
                     )
                 }

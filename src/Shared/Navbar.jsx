@@ -51,7 +51,7 @@ const Navbar = () => {
                     <Link to={'https://www.facebook.com/aminulify/'} target='_blank'><li className='hover:text-[var(--mainColor)] duration-300 animate-bounce px-2 md:px-3'><FaFacebookF/></li></Link>
                     <Link to={'https://dribbble.com/aminulify'} target='_blank'><li className='hover:text-[var(--mainColor)] duration-300 animate-bounce px-2 md:px-3'><FaDribbble/></li></Link>
                     <Link to={'https://www.behance.net/aminulify'} target='_blank'><li className='hover:text-[var(--mainColor)] duration-300 animate-bounce px-2 md:px-3'><FaBehance/></li></Link>
-                    <Link to={'https://www.linkedin.com/in/aminulify/'} target='_blank'><li className='hover:text-[var(--mainColor)] duration-300 animate-bounce px-2 md:px-3'><FaLinkedinIn/></li></Link>
+                    <Link to={'https://www.linkedin.com/company/99452392/'} target='_blank'><li className='hover:text-[var(--mainColor)] duration-300 animate-bounce px-2 md:px-3'><FaLinkedinIn/></li></Link>
                     <Link to={'https://github.com/aminulify'} target='_blank'><li className='hover:text-[var(--mainColor)] duration-300 animate-bounce px-2 md:px-3'><FaGithub/></li></Link>
                 </ul>
             </aside>  

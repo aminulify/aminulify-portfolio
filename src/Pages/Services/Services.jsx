@@ -24,38 +24,38 @@ const Services = () => {
     const servicesData = [
         {
             id: 1,
-            service: "Branding Design",
-            description: "I am a creative brand identity designer. I working on this field more than 4 years. Now I am a Senior Branding Designer.",
+            service: "Brand Identity Design",
+            description: "Create a unique brand identity with logos, colors, and visuals that tell your story and connect with your audience.",
             icon: <MdCrop/>
         },
         {
             id: 2,
             service: "Graphic Design",
-            description: "I am a professional graphic designer. I working on this field more than 4 years. Now I am a Senior Graphic Designer.",
+            description: "Eye-catching designs for posters, flyers, banners, and marketing materials that make your business stand out.",
             icon: <LuBrush/>
         },
         {
             id: 3,
-            service: "Website Design",
-            description: "I am a creative website designer. I have good understanding UI/UX design. I am working successfully on this field.",
+            service: "Animated Web Design",
+            description: "Modern websites with smooth animations and interactive elements for a dynamic, engaging user experience.",
             icon: <MdOutlineDesignServices/>
         },
         {
             id: 4,
-            service: "Website Development",
-            description: "I am a Full stack web developer. I have good understanding on Frontend, Backend and Database. Now I am a junior full stack developer",
+            service: "Website App. Development",
+            description: "Custom web applications built with performance, security, and scalability to support your business goals.",
             icon: <MdScreenshotMonitor/>
         },
         {
             id: 5,
-            service: "F-Commerce Ads",
-            description: "I am a professional digital marketer. I can do successfully run f-commerce detail ads with tracking sells, buyer location, gender and age.",
+            service: "Social Carousel Design",
+            description: "Creative and scroll-stopping carousel posts that showcase your products, services, or stories on social media.",
             icon: <IoBarChartOutline/>
         },
         {
             id: 6,
             service: "FB Business Page Setup",
-            description: "I am a digital marketer. With over 4 years of experience, I specialize in successfully setting up Facebook business pages.",
+            description: "Professional setup and optimization of your Facebook business page with branding, auto-messaging, and full customization.",
             icon: <MdOutlinePhonelinkSetup/>
         },
     ]
@@ -64,11 +64,11 @@ const Services = () => {
         <div className='grid grid-cols-1 md:grid-cols-5 md:gap-8 w-[85%] mx-auto md:my-16 my-8 items-center'>
             <aside className='col-span-2'>
                 <div className='md:mb-24 mb-12 mt-10 left-aos'>
-                    <h2 className='text-white text-[26px] md:text-3xl my-2 font-semibold'>My Services<span className='pl-[2px] font-bold text-3xl md:text-[35px] text-[var(--mainColor)]'>.</span></h2>
-                    <p className='mt-2 text-[#fffffff3] font-[300]'>Working successfully with my expertise in these fields for more than <span className='font-medium'>Four years</span>. My first priority is “My customers are 100% satisfied with my professional work and my friendly demeanor."</p>
+                    <h2 className='text-white text-[26px] md:text-3xl my-2 font-semibold'>Our Services<span className='pl-[2px] font-bold text-3xl md:text-[35px] text-[var(--mainColor)]'>.</span></h2>
+                    <p className='mt-2 text-[#fffffff3] font-[300]'>Working successfully with my expertise in these fields for more than <span className='font-medium'>Seven years</span>. Our first priority is “Our customers are 100% satisfied with my professional work and my friendly demeanor."</p>
                     
                     <div className='flex gap-2 flex-wrap text-white my-3'>
-                        <h2 className='text-white font-semibold border-b-[1px] border-[var(--mainColor)]'>Why choose me <span className='text-[var(--mainColor)] font-bold'>.</span></h2>
+                        <h2 className='text-white font-semibold border-b-[1px] border-[var(--mainColor)]'>Why choose us <span className='text-[var(--mainColor)] font-bold'>.</span></h2>
                         <p className='tags'>Fast Response</p>
                         <p className='tags'>Timely Delivery</p>
                         <p className='tags'>Affordable Prices</p>
